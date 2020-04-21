@@ -1,0 +1,475 @@
+:root{
+	--txt-color:#409bc9;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial, sans-serif;
+}
+
+
+
+.slider-header{
+	height: 45px;
+	width: 1100px;
+	margin: 35px auto;
+	display: flex;
+	position: relative;	
+}
+
+.header-contacts{
+	height: 100%;
+	width: 600px;
+	display: flex;
+	
+
+}
+
+
+
+.header-contacts a{
+	height: 100%;	
+	color: #f46234;
+	font-weight: bold;
+	text-decoration: none;
+	float:left;
+	margin-right: 20px; 
+	
+}
+
+.logo-title{
+	font-size: 40px;	
+	line-height: 45px;
+}
+
+.logo-explane{
+	font-size: 10px;
+	text-align: right;	
+	margin-top:-9px;
+
+}
+
+.contacts-info{
+	height: 100%;
+	width: 50%;
+
+	
+}
+
+
+
+.contacts-icon{	
+	height: 45px;
+	width: 30px;
+	background-image: url(https://image.flaticon.com/icons/svg/254/254638.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	
+}
+
+.number{
+	height: 50%;
+	width: 130px;
+	color: #c4c4c4;
+	float: left;
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.header-search{
+	height: 100%;
+	width: 310px;
+	position: relative;
+
+}
+.header-search span{
+	display: inline-block;
+}
+
+.arrow{
+	height: 45px;
+	width: 15px;
+	position: absolute;	
+	background-image: url(https://image.flaticon.com/icons/svg/566/566004.svg);	
+	background-size: 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	right: 3px;
+	display: block;
+
+}
+
+.category{
+	height: 100%;
+	width: 150px;
+	border: 1px solid #c4c4c4;
+	text-align: left;
+	font-size: 12px;
+	padding-left: 10px; 
+	margin-right: 5px;
+	line-height: 45px;
+	position: relative;
+	float: left;
+}
+
+.btn-search{
+	height: 45px;
+	width: 30px;
+	cursor: pointer;
+	background-image: url(https://image.flaticon.com/icons/svg/402/402766.svg);
+	background-repeat: no-repeat;
+	background-size: 15px; 
+	background-position: center;
+	position: absolute;
+	right: 3px;
+}
+
+.header-basket-btn{
+	height: 100%;
+	width: 190px; 
+	display: flex;
+	cursor: pointer;
+}
+
+.basket-icon{
+	height: 100%;
+	width: 30%;
+	background-image: url(https://image.flaticon.com/icons/svg/60/60992.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25px;
+	float: left;
+}
+
+.header-price{
+	color: var(--txt-color);
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.slider-header:before{
+	content: '';
+	height: 1px;
+	width: 1300px;
+	position: absolute;
+	left: -100px;
+	bottom: -35px;
+	background-color: var(--txt-color);
+}
+
+.center-screen{
+	width: 1200px;
+	margin:0 auto;
+}
+
+.product-info{
+	height: 460px;
+}
+.slider-title{
+	height: 150px;
+	color: var(--txt-color);	
+	padding-top: 20px;
+	margin-bottom:  35px;
+	text-align: center;
+	
+}
+.title{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.product-way{
+	height: 30px;
+	width: 728px;
+	margin:0 auto;
+	padding-top: 5px;
+	font-size:12px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+
+}
+.product-way li{	
+	float: left;
+}
+.product-way a{
+	text-decoration: none;
+	color: var(--txt-color);	
+}
+.product-way li:nth-child(n+2):before{
+	content: '>';
+	font-size: 10px;
+	padding-left: 2px; 
+	color: black;
+}
+
+
+.image{
+	min-height: 300px;
+	width: 50%;
+	float: left;
+
+}
+.gallery-img{
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.container-info{
+	height: 100%;
+	width:50%;
+	float: left;
+}
+.info{
+height: 120px;
+width: 100%;
+display: flex;
+flex-direction: column;
+line-height: 25px;
+font-size: 14px;
+margin-bottom: 20px;
+
+}
+
+.info a{
+	text-decoration: none;
+	color: var(--txt-color);
+}
+
+.container-item{
+	height: 80px;
+	width:100%;
+	border-top: 1px solid #c7c7c7;	
+	display: flex;
+	align-items: center;
+
+}
+
+.product-price{
+height: 35px;
+width: 40%;
+font-size: 35px;
+font-weight: bold;
+color: var(--txt-color);
+
+
+}
+.count-text{
+	font-weight: bold;
+}
+.count{
+	
+	height: 30px;
+	width: 90px;
+	 border: 1px solid #c4c4c4;	
+	 padding-left: 10px;
+	 outline: none;
+}
+
+.stepper{
+  display: inline-block;
+ max-width: 90px;
+ width: 100%;
+ margin-left: 10px;
+  position: relative;
+}
+
+
+
+
+
+
+
+.stepper__controls{
+position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 1px;
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+ 
+}
+
+
+
+
+
+
+
+.btn-count{
+display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+  outline: none;  
+  border: 1px solid #c4c4c4;  
+  background-color: #fff;
+  height: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+ 
+
+}
+.btn-count:last-child{
+	border-top: none;
+	border-bottom: none;
+}
+.container-btn{
+	height: 40px;
+	background-color: var(--txt-color);
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+
+}
+
+.btn-buy{	
+	width: 90px;	
+	margin-left: 20px;	
+}
+
+.btn-call{
+	width: 200px;
+	position: relative;
+	
+
+}
+
+
+.phone-icon:before{
+	content: '';
+	height: 15px;
+	width: 15px;
+	background-image: url(https://www.pngkit.com/png/full/94-943942_593-transparent-background-phone-icon-white.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 10px;
+bottom: 13px;
+left: 23px;
+	position: absolute;
+	
+
+}
+.container-item:last-child{
+	display: flex;
+flex-direction: column;
+}
+.rating,
+.sharing{
+	height: 50%;
+	width: 100%;
+	line-height: 50%;
+}
+
+.rating{
+	margin-top: 20px;
+}
+.star{
+	height: 15px;
+	width: 15px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Star_empty.svg/162px-Star_empty.svg.png);
+	background-size:12px;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	
+
+}
+
+.container-item a{
+	height: 15px;
+	text-decoration:none;
+	color: var(--txt-color);
+	font-size: 15px;
+	padding: 0 10px; 
+	position: relative;
+}
+
+.container-item a:last-child:before{
+	content: '|';
+	color: black;
+	margin-left:-15px;
+	position: absolute;
+}
+.display:hover{
+	color:#36507a;
+}
+
+.like,
+.twit,
+.share{
+	height: 15px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 10px;
+	position: relative;
+	float: left;
+	margin-right: 5px;
+	line-height: 15px;
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+.like{
+	
+	width: 50px;
+	background-color: #1877f2;
+	font-weight: bold;
+	
+}
+
+.like:before,
+.twit:before,
+.share:before{
+	content: '';
+	height: 15px;
+	width: 10px;
+	background-size: 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;	
+	left: 3px;
+
+}
+
+.twit{	
+	width: 70px;
+	background-color: #1b95e0;
+	color: #fff;
+}
+.share{	
+	width: 90px;
+	background-color: #fe6d4c;
+	
+}
+.twit:before{
+	background-image: url(https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png);
+}
+
+.like:before{
+	background-image: url(https://www.freeiconspng.com/uploads/white-like-icon-png-20.png);
+}
+
+.share:before{
+	background-image: url(https://www.nicepng.com/png/full/251-2519428_0-add-icon-white-png.png);
+}
+
+
