@@ -1,0 +1,252 @@
+/* General */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+
+.button:hover,
+button:hover{
+	background: linear-gradient(to left, #E1060C, #FA2E60);
+}
+
+
+/* Header */
+header{
+	height: 430px;
+	background: url('../img/bg-01.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+}
+#topbar{
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0; 
+	z-index: 50;
+}
+.container{
+	height: 100%;
+	width: 856px;
+	margin: 0 auto;
+	color: #fff;	
+}
+
+ 
+header .container{
+	flex-direction: column;
+	justify-content: center;
+	display: flex;
+}
+.menu{
+	height: 50px;
+	}
+.menu li{
+	float: left;
+	height: 100%;
+	width: 
+	
+
+}
+.menu li a{	
+	height: 100%;
+	text-transform: uppercase;
+	padding: 0 18px;
+	display: flex;
+	align-items: center;
+}
+.menu li:hover{
+	background:#b91a34;
+}
+header h1{
+	font-family: 'Metal Mania', cursive;
+	color: #fff;
+	font-size: 80px;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.button{
+	background: linear-gradient(to right, #E1060C, #FA2E60);
+    text-transform: uppercase;
+}
+header .button{
+    padding: 15px 30px;
+    width: 200px;
+    margin: 0 auto;
+}
+/* Tour */
+#tour,#gallery{
+	width: 100%;
+	background: url(../img/bg.png);
+	background-color: #383838;
+}
+
+h2{
+	padding:40px 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+.tour-card{
+    height: 145px;
+    width: 180px;
+	display: inline-block;
+	padding: 35px 10px;
+	color: #fff;
+	line-height: 25px;
+	background-size: cover;
+	position: relative;
+    margin: 0 5px;
+
+}
+.tour-card *{
+	position: relative;
+	z-index: 2;
+}
+.tour-card:before{
+	content: '';
+	position: absolute;
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+.tour-town{
+	text-transform: uppercase;
+	font-size: 16px;z-index: 2;
+}
+.tour-place{
+
+}
+.tour-date{
+    font-size: 13px;
+    font-style: oblique;
+    padding-bottom: 25px;
+}
+.madrid{
+	background: url('../img/tour/madrid.jpg');
+	
+}
+.turin{
+	background: url('../img/tour/turin.jpg');
+}
+.hamburg{
+	background: url('../img/tour/hamburg.jpg');
+}
+.krakow{
+	background: url('../img/tour/krakow.jpg');
+
+}
+.tour-card .button{
+	width: 145px;
+    height: 35px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Gallery */
+#gallery{
+	padding-bottom: 40px;
+}
+.photo{
+	width:30.333333%;
+	margin:  5px;
+	display: inline-flex;
+}
+
+.photo img{
+	width: 100%;
+}
+
+
+/* Subscribe */
+
+#subscribe{
+    height:290px;	
+    background:url(../img/bg-02.jpg);	
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;	
+}
+
+#subscribe:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+#subscribe *{
+	position: relative;
+	z-index: 2;
+}
+#subscribe .container{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.pitch{
+	    padding-bottom: 20px;
+}
+input {
+    font-size: 16px;
+    line-height: 33px;
+    height: 33px;
+    padding-left: 5px;
+    background-color: #fff;
+    border: 0;
+}
+button {
+    font-size: 16px;
+    padding: 10px 15px;
+    background: linear-gradient(to right, #E1060C, #FA2E60);
+    text-transform: uppercase;
+    color: #fff;
+    border-style: none;
+    cursor: pointer;
+}
+/* Footer */
+footer{
+	position: relative;
+    height: 100px;
+    background-color: #212121;
+    background-image: url(/LR-8/task-2/img/bg.png);
+    text-align: center;
+}
+
+.social{
+	display: flex;
+	justify-content: center;
+	padding-top: 13px;
+}
+.fa{
+	padding: 5px;
+    margin-bottom: 10px;
+}
+.fa:hover{
+	color:#b91a34;
+}

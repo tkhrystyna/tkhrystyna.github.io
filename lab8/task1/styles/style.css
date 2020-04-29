@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #4e6379;
+}
+.hosting-wrap{
+	height: 197px;
+	width: 753px;
+	margin: 48px auto;
+	background: #fff;
+	padding: 13px 0;
+	border-radius: 5px;
+}
+
+.hosting-item{
+	height: 100%;
+	width: 33.3333%;
+	float: left;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	
+}
+.item-image{
+	height: 43px;
+	background: url('../images/sprite.png');
+
+}
+.virtual-hst{
+	    background-position: -72px -10px;
+    width: 43px;
+}
+.cloud-hst{
+	background-position: -135px -10px;
+    width: 69px;
+}
+.db-hst{
+	background-position: -10px -10px;
+    width: 42px;
+}
+
+.item-title{
+	margin: 25px 0;
+	color: #f56332;
+	font-weight: bold;
+}
+
+.item-price{
+	font-size: 11px;
+}
+
+.item-btn {
+	height: 30px;
+	width: 90px;
+	margin-top: 17px;
+	background: #f56332;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+	line-height: 30px;
+}
+
+.hosting-item:not(:last-child):after{
+	content: '';
+	height: 100%;
+	width: 2px;
+	background: #e9e9e9;
+	position: absolute;
+	right: 0;
+
+}
+
