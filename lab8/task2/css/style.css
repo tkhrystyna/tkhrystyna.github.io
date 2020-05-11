@@ -100,7 +100,7 @@ h2{
 }
 .tour-card{
     height: 145px;
-    width: 180px;
+	width: calc(25% - 35px);
 	display: inline-block;
 	padding: 35px 10px;
 	color: #fff;
@@ -166,9 +166,10 @@ h2{
 	padding-bottom: 40px;
 }
 .photo{
-	width:30.333333%;
-	margin:  5px;
+	width: calc(33.333% - 20px) ;
+	margin: 5px;
 	display: inline-flex;
+	/*box-sizing: content-box;*/
 }
 
 .photo img{
