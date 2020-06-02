@@ -1,0 +1,240 @@
+
+/* General */
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 26px;
+}
+h2, h3 {
+    color: #282828;
+}
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin:0 auto;
+}
+.brand {
+    font-size: 30px;
+}
+
+.menu li {
+    float: left;
+    font-size: 16px;
+    list-style: none; 
+}
+.menu {
+    padding-left: 0; 
+    margin: 0;
+}
+
+ a {
+ 	text-decoration: none;
+ }
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Header */
+header {
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+
+header .brand{
+	text-align: center;
+	color: #59abe3;
+	margin-bottom: 30px;
+}
+
+header .menu{
+	
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	
+
+}
+header .menu li{
+	list-style: none;
+	
+}
+
+
+header .menu li a{
+	color: #b3b3b3;
+}
+
+.jumbotron{
+	
+	background:url(../img/jumbotron.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	padding: 80px 0px;   
+    min-height: 250px;
+    text-align: center;
+}
+
+
+
+
+.jumbotron .button {
+	
+	margin-top: 40px;
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 30px;
+	background-color: #fa5ba5;
+	 padding: 20px 30px;
+
+	
+
+}
+
+/* Services */
+.services {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.services .service{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+
+
+}
+
+.services .fa {
+    color: #979797;
+    margin-bottom: 15px; 
+}
+
+/* Blog */
+.blog{
+	background-color: #fcfcfc;
+	padding: 50px 0px;
+	 text-align: center;
+    
+}
+
+.blog h2 {
+    text-align: center;
+}
+
+
+.blog .post {   
+	display: inline-block;
+    padding-top: 30px;
+}
+
+.blog .post img {
+    
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #38404b;
+}
+
+footer .brand {
+    color: #bcc9dd;
+}
+
+footer .menu li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer .menu li a {
+    color: #bcc9dd;
+}
+
+footer .menu {
+    display: inline-block;
+    margin-top: 30px; 
+    margin-bottom: 15px;
+}
+
+footer .copyright {
+    font-size: 12px;
+    color: #eee;
+}
+
+
+@media (min-width: 506px){
+	header .container{
+	display: flex;
+    justify-content: space-between;
+}
+	header .brand{
+	text-align: left;
+	
+}
+	header .menu{
+justify-content: flex-end;
+	
+	margin-bottom: 30px;
+}	
+header .menu li{
+	
+	  padding-left: 20px;
+}
+}
+@media (min-width: 575px) {
+	
+    .services .service {
+        width: 33.333333%;
+    	float: left;
+
+    } 
+    .blog{
+    	clear: both;
+    }
+}
+
+
+
+@media (min-width: 638px){
+   	.blog .post {
+	padding-top: 30px;
+    display:inline-block;   
+	text-align: left;
+	clear: both;
+	
+}
+.blog .post img {
+    float: left;
+    margin-right: 30px;
+}
+}
+
