@@ -33,6 +33,11 @@ li{
 }
 /*phone*/
 
+.phone a{
+	color: #c7c7c7;
+	padding-left: 55px;
+	padding-right: 27px;
+}
 
 .phone{
 	min-height: 25px;
@@ -41,12 +46,9 @@ li{
 	border-bottom-left-radius: 30px;
 	border-top-right-radius: 5px;	
 	box-shadow: -2px 2px 4px   #dedede;
-	float: right;
-	color: #c7c7c7;
+	float: right;	
 	padding-top: 8px;
-	padding-left: 55px;
 	position: relative;
-	padding-right: 27px;
 	overflow-wrap: hidden;
 
 }
