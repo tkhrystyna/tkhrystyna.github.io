@@ -219,7 +219,7 @@ h2 {
 
 
 .buy_form button{
-
+    cursor: pointer;
     height: 50px;
     width: 150px;
     border: 0;
